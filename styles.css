@@ -17,7 +17,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 60%;
     color: white;
 
 }
@@ -118,6 +118,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 258px;
 }
 .picture-block {
     display: flex;
@@ -132,4 +133,33 @@ h4 {
 }
 #picture-text {
     max-width: 154px;
+}
+/* Grey - quote part */
+.grey {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 250;
+} 
+#author {
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: 40px;
+    float: right;
+    font-size: 28px;
 }
