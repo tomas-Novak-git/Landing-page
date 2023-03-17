@@ -1,0 +1,135 @@
+body {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+}
+/* Here is top part - dark blue */
+.darkBlue {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    color: white;
+
+}
+.top-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    max-height: 75px;
+}
+li {
+    padding: 8px;
+    border-bottom: 1px white solid;
+    width: 80.14px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.top-part-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+ul :hover {
+    background-color: #1e4789;  
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+#master-head {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0px;
+ }
+.mid-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.mid-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.img-top {
+    max-width: 350px;
+    max-height: auto;
+    max-width: auto;
+    border-radius: 18px;
+}
+.button {
+    background-color: #3882F6;
+    text-align: center;
+    font: 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 30px 8px 30px;
+    border: none;
+}
+/* Second part - pictures */
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.white-content {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    max-width: 70%;
+    justify-content: space-between;
+}
+.joke-start {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 36px;
+}
+.pictures {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.picture-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.joke-img {
+    max-width: 150px;
+    max-height: 150px;
+    border: #3882F6 solid 2px;
+    border-radius: 15px;
+}
+#picture-text {
+    max-width: 154px;
+}
