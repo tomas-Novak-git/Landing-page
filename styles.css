@@ -42,20 +42,22 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-.top-part-text {
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: 300;
-}
 ul :hover {
     background-color: #1e4789;  
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
-h4 {
+.top-part-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+#header-drummer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h4 {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -104,7 +106,7 @@ h4 {
     display: flex;
     flex-flow: column;
     text-align: center;
-    max-width: 70%;
+    max-width: 60%;
     justify-content: space-between;
 }
 .joke-start {
@@ -144,7 +146,7 @@ h4 {
 .quote {
     display: flex;
     flex-wrap: wrap;
-    max-width: 70%;
+    max-width: 60%;
     justify-content: center;
     align-items: center;
     padding: 100px;
@@ -162,4 +164,33 @@ h4 {
     top: 40px;
     float: right;
     font-size: 28px;
+}
+/* Bottom - Call to action part */
+.white-2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-blue-background {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 80px 40px 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-white {
+    border: solid white 2px;
+}
+#call {
+    padding: 0px;
+    margin: 0px
+}
+#blue-text {
+    margin: 0px;
+    padding: 0px;
 }
