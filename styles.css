@@ -140,7 +140,7 @@ ul :hover {
 }
 
 .top-part-text {
-    font-size: 18px;
+    font-size: var(--font-size-base);
     color: #E5E7EB;
     font-weight: 300;
 }
@@ -274,8 +274,8 @@ h4 {
 .text-blue-background {
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 3rem 5rem;
-    width: 65ch;
+    padding: 3rem 10rem;
+    max-width: 85ch;
     display: flex;
     align-items: center;
     justify-content: space-between;
